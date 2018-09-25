@@ -137,6 +137,8 @@ var FitImage = /** @class */ (function (_super) {
     };
     FitImage.prototype.render = function () {
         var ImageComponent = this.ImageComponent;
+        console.log('prop wa');
+        console.log(this.props);
         return (React.createElement(ImageComponent, __assign({}, this.props, { onLayout: this.onLayout, onLoad: this.onLoad, onLoadStart: this.onLoadStart, source: this.props.source, onError: this.props.onError, style: [
                 this.style,
                 this.sizeStyle,

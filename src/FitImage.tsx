@@ -133,6 +133,8 @@ class FitImage extends Component<IFitImageProps, IFitImageState> {
   public render() {
     const ImageComponent = this.ImageComponent;
 
+    console.log('prop wa')
+    console.log(this.props)
     return (
       <ImageComponent
         {...this.props}
