@@ -76,8 +76,8 @@ class FitImage extends Component<IFitImageProps, IFitImageState> {
   public static propTypes = propTypes;
   private ImageComponent = ImageBackground || Image;
   private isFirstLoad: boolean;
-  private mounted: boolean;
-  private sizeStyle: ImageStyle;
+  private mounted!: boolean;
+  private sizeStyle!: ImageStyle;
   private style: ImageStyle;
 
   constructor(props: IFitImageProps) {
